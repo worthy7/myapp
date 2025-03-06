@@ -4,6 +4,25 @@
   "newProjectRoot": "projects",
   "projects": {
     "myapp": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "en": {
+            "translation": "src/locale/messages.xlf",
+            "baseHref": ""
+            
+          },
+          "es": {
+            "translation": "src/locale/messages.es.xlf",
+            "baseHref": ""
+            
+          },
+          "ja": {
+            "translation": "src/locale/messages.ja.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,11 +36,13 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": true,
             "outputPath": "dist/myapp",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
-              "zone.js"
+              "zone.js",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -86,7 +107,8 @@
           "options": {
             "polyfills": [
               "zone.js",
-              "zone.js/testing"
+              "zone.js/testing",
+              "@angular/localize/init"
             ],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",

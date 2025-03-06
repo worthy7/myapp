@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6908272188266876776" datatype="html">
+        <source>prerendered child</source>
+        <target>prerendered child spanish</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">336,337</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6274469071289893639" datatype="html">
+        <source>normal child</source>
+        <target>normal spanish</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">339,340</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

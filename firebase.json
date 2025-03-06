@@ -7,11 +7,8 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.csr.html"
-      }
-    ]
+  "i18n": {
+    "root": "/"
+  }
   }
 }

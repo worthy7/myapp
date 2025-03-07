@@ -2,13 +2,23 @@
   "hosting": {
     "site": "test-calendr-d8977",
     "public": "dist/myapp/browser",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-  "i18n": {
-    "root": "/"
-  }
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+   
+    "rewrites": [
+      {
+        "source": "/es/**",
+        "destination": "/es/index.html"
+      },
+      {
+        "source": "/ja/**",
+        "destination": "/ja/index.html"
+      },
+      {
+        "source": "/en/**",
+        "destination": "/en/index.html"
+      }
+    ], "i18n": {
+      "root": "/"
+    }
   }
 }

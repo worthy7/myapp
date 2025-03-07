@@ -4,17 +4,27 @@
     <body>
       <trans-unit id="6908272188266876776" datatype="html">
         <source>prerendered child</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">336,337</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="6274469071289893639" datatype="html">
         <source>normal child</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">339,340</context>
-        </context-group>
+      </trans-unit>
+      <trans-unit id="3006969876592741846" datatype="html">
+        <source>I am a prerendered component</source>
+      </trans-unit>
+      <trans-unit id="5190825892106392539" datatype="html">
+        <source>Spanish</source>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+      </trans-unit>
+      <trans-unit id="6924606686202701860" datatype="html">
+        <source>Japanese</source>
+      </trans-unit>
+      <trans-unit id="7367811072615936109" datatype="html">
+        <source>I am a normal component</source>
+      </trans-unit>
+      <trans-unit id="616064537937996961" datatype="html">
+        <source>Auto</source>
       </trans-unit>
     </body>
   </file>

@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && node rename-csr-indexes.js && ng extract-i18n",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build && firebase deploy", 
+    "deploy": "npm run build && firebase deploy",
     "serve:ssr:myapp": "node dist/myapp/server/server.mjs"
   },
   "private": true,
@@ -40,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-extract-i18n-merge": "^2.14.3",
     "typescript": "~5.7.2"
   }
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject, LOCALE_ID } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
@@ -9,4 +9,6 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'myapp';
+  localeId = inject(LOCALE_ID) ;
+  
 }

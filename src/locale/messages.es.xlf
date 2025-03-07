@@ -4,19 +4,35 @@
     <body>
       <trans-unit id="6908272188266876776" datatype="html">
         <source>prerendered child</source>
-        <target>prerendered child spanish</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">336,337</context>
-        </context-group>
+        <target>niño prerenderizado</target>
       </trans-unit>
       <trans-unit id="6274469071289893639" datatype="html">
         <source>normal child</source>
-        <target>normal spanish</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">339,340</context>
-        </context-group>
+        <target>niño normal</target>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <target state="new">Inglés</target>
+      </trans-unit>
+      <trans-unit id="6924606686202701860" datatype="html">
+        <source>Japanese</source>
+        <target state="new">Japonés</target>
+      </trans-unit>
+      <trans-unit id="5190825892106392539" datatype="html">
+        <source>Spanish</source>
+        <target state="new">Español</target>
+      </trans-unit>
+      <trans-unit id="7367811072615936109" datatype="html">
+        <source>I am a normal component</source>
+        <target state="new">Soy un componente normal</target>
+      </trans-unit>
+      <trans-unit id="3006969876592741846" datatype="html">
+        <source>I am a prerendered component</source>
+        <target state="new">Soy un componente prerenderizado</target>
+      </trans-unit>
+      <trans-unit id="616064537937996961" datatype="html">
+        <source>Auto</source>
+        <target state="new">Auto</target>
       </trans-unit>
     </body>
   </file>

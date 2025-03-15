@@ -5,16 +5,22 @@
   "projects": {
     "myapp": {
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": {
+          "code": "en-US",
+          "subPath": ""
+        },
         "locales": {
           "en": {
             "translation": "src/locale/messages.xlf"
+            
           },
           "es": {
             "translation": "src/locale/messages.es.xlf"
+            
           },
           "ja": {
             "translation": "src/locale/messages.ja.xlf"
+            
           }
         }
       },
@@ -73,7 +79,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "appShell": true
             },
             "development": {
               "optimization": false,

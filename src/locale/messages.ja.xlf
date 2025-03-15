@@ -10,10 +10,6 @@
         <source>normal child</source>
         <target>normal 子供</target>
       </trans-unit>
-      <trans-unit id="5866254605255506989" datatype="html">
-        <source>English</source>
-        <target state="new">英語</target>
-      </trans-unit>
       <trans-unit id="6924606686202701860" datatype="html">
         <source>Japanese</source>
         <target state="new">日本語</target>
@@ -33,6 +29,10 @@
       <trans-unit id="616064537937996961" datatype="html">
         <source>Auto</source>
         <target state="new">自動</target>
+      </trans-unit>
+      <trans-unit id="5278426873088201030" datatype="html">
+        <source>English UK</source>
+        <target state="new">English UK</target>
       </trans-unit>
     </body>
   </file>

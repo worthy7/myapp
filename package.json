@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && node rename-csr-indexes.js && ng extract-i18n",
+    "build": "ng extract-i18n && ng build ",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "npm run build && firebase deploy",
